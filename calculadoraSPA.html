@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <title>CalculadoraSPA-David Moreno Lumbreras</title>
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+     <script type="text/javascript" src="calculadoraSPA.js"></script>
+     <!-- Bootstrap -->
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	 <!-- Mi CSS -->
+     <link rel="stylesheet" type="text/css" href="calculadoraSPA.css" title="style" />
+     <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+   </head>
+   </head>
+   <body>
+    <div id="sandbox">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Casio_logo.svg/2000px-Casio_logo.svg.png" width="55" align="right" style="margin: 5px 5px 0 0">
+        <input id="resultado" style="text-align:right"></input>
+        <div class="botones btn-toolbar" role="toolbar">
+            <button id="parentesis_apertura" class="operando btn-group" role="group" title="Abrir parentesis">(</button>
+            <button id="parentesis_cierre" class="operando btn-group" role="group" title="Cerrar parentesis">)</button>
+            <button id="memoria" class="mem btn-group" role="group" title="Memoria">M</button>
+            <button id="borrar_todo" class="operando btn-group" role="group" title="Borrar Todo">CE</button>
+        </div>
+        <div class="botones btn-toolbar" role="toolbar">
+			<button id="siete" class="num btn-group" role="group" title="Numero 7">7</button>
+			<button id="ocho" class="num btn-group" role="group" title="Numero 8">8</button>
+			<button id="nueve" class="num btn-group" role="group" title="Numero 9">9</button>
+			<button id="division" class="operando btn-group" role="group" title="Dividir">/</button>
+        </div>
+        <div class="botones btn-toolbar" role="toolbar">
+			<button id="cuatro" class="num btn-group" role="group" title="Numero 4">4</button>
+			<button id="cinco" class="num btn-group" role="group" title="Numero 5">5</button>
+			<button id="seis" class="num btn-group" role="group" title="Numero 6">6</button>
+			<button id="mult" class="operando btn-group" role="group" title="Multiplicar">*</button>
+        </div>
+        <div class="botones btn-toolbar" role="toolbar">
+			<button id="uno" class="num btn-group" role="group" title="Numero 1">1</button>
+			<button id="dos" class="num btn-group" role="group" title="Numero 2">2</button>
+			<button id="tres" class="num btn-group" role="group" title="Numero 3">3</button>
+			<button id="resta" class="operando btn-group" role="group" title="Restar">-</button>
+        </div>
+        <div class="botones btn-toolbar" role="toolbar">
+			<button id="cero" class="num btn-group" role="group" title="Numero 7">0</button>
+			<button id="coma" class="num btn-group" role="group" title="Coma decimal">.</button>
+			<button id="borrar" class="operando btn-group" role="group" title="Borrar">C</button>
+			<button id="suma" class="operando btn-group" role="group" title="Sumar">+</button>
+        </div>
+        <div class="botones btn-toolbar" role="toolbar">
+			<button id="igual" class="igual btn-group" role="group" title="Calcular Resultado">=</button>
+            <button id="memoria_reset" class="mem btn-group" role="group" title="Borrar Memoria">MR</button>
+        </div>
+    </div>
+    
+   
+   </body>
+</html>

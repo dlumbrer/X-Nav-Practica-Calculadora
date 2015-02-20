@@ -1,0 +1,45 @@
+#sandbox {
+	background-color: #2D2D2D;
+	border: 3px solid rgba(21,11,11,0.2);
+	width : 270px;
+	margin: 0 auto;
+	border-radius: 15px;
+}
+
+.botones {
+	margin: 0 auto 4px auto;
+}
+
+.num, .operando, .igual, .mem{
+	font-size: 200%;
+	border-radius: 20px;
+	width: 60px;
+	height: 60px;
+}
+
+
+.num {
+	background-color: #020C2D;
+	color: #FFFFFF;
+}
+
+.igual {
+	background-color: #6D0202;
+	color: #FFFFFF;
+	width: 71.6%;
+}
+
+.operando, .mem{
+	background-color: #F3EBEB;
+	color: #020C2D;
+}
+
+#resultado {
+	border-radius: 8px;
+	background-color: #E4DDAA;
+	width: 100%;
+	margin: 10px auto;
+	height: 50px;
+	font-size: 200%;
+	
+}
