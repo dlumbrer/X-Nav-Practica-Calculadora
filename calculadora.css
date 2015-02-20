@@ -15,22 +15,33 @@
 	border-radius: 20px;
 	width: 60px;
 	height: 60px;
+
+ 
+    box-shadow: inset 0px 0px 6px #fff;
+    -webkit-box-shadow: inset 0px 0px 6px #fff;
+
 }
 
 
 .num {
-	background-color: #020C2D;
+	background: #4682B4;
+    background: -moz-linear-gradient(top, #87CEEB 0%, #4682B4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87CEEB), color-stop(100%,#4682B4));
 	color: #FFFFFF;
 }
 
 .igual {
-	background-color: #6D0202;
+	background: #B44F46;
+    background: -moz-linear-gradient(top, #EB8F87 0%, #B44F46 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EB8F87), color-stop(100%,#B44F46));
 	color: #FFFFFF;
 	width: 71.6%;
 }
 
 .operando, .mem{
-	background-color: #F3EBEB;
+	background: #8E8E8E;
+    background: -moz-linear-gradient(top, #E5E5E5 0%, #8E8E8E 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E5E5E5), color-stop(100%,#8E8E8E));
 	color: #020C2D;
 }
 
